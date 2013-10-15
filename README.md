@@ -1,6 +1,6 @@
 ![Keep logo](http://f.cl.ly/items/1b2n2b1h073B290m2M3A/keep_banner_large.png)
 
-Keep
+Keep [![Build Status](https://travis-ci.org/mkautzmann/keep.png?branch=master)](https://travis-ci.org/mkautzmann/keep)
 ====
 
 ## What?
