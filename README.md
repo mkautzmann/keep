@@ -15,7 +15,7 @@ This is a FDD (Fun Driven Development) project that I made because I want to wat
 
 So a extension called Keep It Playing is here. As Chrome is my default browser this is available as a Chrome extension.
 
-## How I use it?
+## How do I use it?
 
 The extension usage if pretty simple:
 
