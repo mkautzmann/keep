@@ -1,0 +1,34 @@
+{
+	"name": "Keep it playing",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "description": "Controls web based music players based on the state of some video player services. Currently compatible with YouTube and Deezer.",
+  "author": "Matheus Kautzmann",
+  "icons": { "128": "icons/icon_128.png" },
+  "background": {
+    "persistent": true,
+    "scripts": ["src/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.deezer.com/*"],
+      "js": ["src/deezer-video-controller.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://www.youtube.com/watch*"],
+      "js": ["src/youtube-deezer-controller.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "storage", "http://www.youtube.com/*", "http://www.deezer.com/*"
+  ],
+  "browser_action": {
+    "default_title": "Keep",
+    "default_icon": "icons/icon_19.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": ["src/youtube-deezer-controller-monitor.js", "src/deezer-video-controller-monitor.js"]
+}
+
