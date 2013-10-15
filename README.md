@@ -71,6 +71,20 @@ Just notice that things are pretty unstable so far, lots of "mysterious" problem
 
 Contributions are welcome.
 
+### Here's how you build the project
+
+Dependencies:
+
+* You'll need Node.JS.
+* You'll need NPM.
+* Grunt, if don't have it install with this command (you may need sudo): `npm install -g grunt-cli`
+
+1. Run `npm install` on the root directory of your fork;
+2. Run `grunt build`
+3. Nice! You just did your first build.
+
+### About contributions
+
 Feel free to fill an [issue](https://github.com/mkautzmann/keep/issues) or a [pull request](https://github.com/mkautzmann/keep/pulls) to this project if you can pull out a fix, suggestion or maybe a new feature/implementation.
 
 Also, if you are having problems using the extension please use the [issues page](https://github.com/mkautzmann/keep/issues) detailing the problem. Then we can solve it together.
