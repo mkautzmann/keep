@@ -1,0 +1,34 @@
+{
+	"name": "KeepItPlaying",
+	"description": "Controls web based music players based on the state of some video player services on the web.",
+	"version": "0.1.0",
+	"homepage": "https://github.com/mkautzmann/keep",
+  "private": true,
+	"author": {
+		"name": "Matheus Kautzmann",
+		"url": "https://github.com/mkautzmann"
+	},
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mkautzmann/keep.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mkautzmann/keep/issues"
+	},
+	"devDependencies": {
+		"grunt" : "~0.4.0",
+    "grunt-contrib-copy": "0.4.1",
+		"grunt-contrib-coffee": "0.7.0",
+		"grunt-coffeelint": "~0.0.6",
+    "grunt-contrib-less": "0.7.0",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt-docco": "~0.2.0",
+		"docco": "~0.6.0"
+	},
+	"engine": "node 0.8.12",
+	"license": "MIT"
+}
+
