@@ -1,0 +1,12 @@
+# Ignoring system files
+.DS_Store
+.Thumbs.db
+
+# Ignoring node_modules
+node_modules
+
+# Ignoring dist folder, forcing build
+dist
+
+#Ignoring docs folder
+docs
