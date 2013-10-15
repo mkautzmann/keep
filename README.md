@@ -19,10 +19,10 @@ So a extension called Keep It Playing is here. As Chrome is my default browser t
 
 The extension usage if pretty simple:
 
-1) Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/keep-it-playing/fagomklndfgephijmhgfennnpfpeioom);
-2) Open [Deezer](http://www.deezer.com/) and start listening;
-3) Open [YouTube](http://www.youtube.com/) and start watching videos (nope, it doesn't work with embed videos so far. Sorry...);
-4) Boom! Your music now knows when you want to watch a video and pauses automatically.
+1. Get the extension at the [Chrome Web Store](https://chrome.google.com/webstore/detail/keep-it-playing/fagomklndfgephijmhgfennnpfpeioom);
+2. Open [Deezer](http://www.deezer.com/) and start listening;
+3. Open [YouTube](http://www.youtube.com/) and start watching videos (nope, it doesn't work with embed videos so far. Sorry...);
+4. Boom! Your music now knows when you want to watch a video and pauses automatically.
 
 What if I want to keep the music playing while watching sometimes?
 
